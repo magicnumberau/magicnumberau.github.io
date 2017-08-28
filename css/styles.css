@@ -1,0 +1,220 @@
+﻿html, body {
+    height: 100%;
+}
+
+body {
+    font-size: 20px;
+    font-family: 'Playfair Display SC', serif;
+    background-color: #E8EEF6;
+}
+
+    @media (max-width: 991px) {
+        body {
+            font-size: 14px;
+        }
+    }
+
+    @media (max-width: 390px) {
+        body {
+            font-size: 12px;
+        }
+    }
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    min-width:320px;
+    width: auto;
+    padding: 0;
+    height: 100%;
+    background-color: #fff;
+}
+
+#wrap {
+    min-height: 100%;
+    height: auto!important;
+    height: 100%;
+    margin: 0 auto -100px;
+    padding: 0 0 100px 0;
+    background-color: #fff;
+}
+
+.navbar-row, .content, .footer-main {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.banner {
+    position: relative;
+    overflow: hidden;
+}
+
+    .banner .overlay {
+        background-color: rgba(0, 0, 0, 0.4);
+        color: #fff;
+        left: 41.6667%;
+        margin: 0 auto;
+        max-height: 200px;
+        overflow: hidden;
+        padding: 10px 15px;
+        position: absolute;
+        right: 55px;
+        text-align: left;
+        top: 50%;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+    }
+    
+    @media (max-width: 1140px) {
+        .banner .overlay {
+            font-size: 0.8em;
+        }
+    }
+
+    @media (max-width: 767px) {
+        .banner .overlay {
+            font-size: 0.7em;
+            left: 35px;
+            right: 35px;
+        }
+    }
+
+    @media (max-width: 390px) {
+        .banner .overlay {
+            font-size: 0.6em;
+        }
+    }
+
+        .banner .overlay > span {
+            font-size:1.8em;/*36px;*/
+        }
+
+            .banner .overlay > span.overlay-text-large {
+                font-size: 2.4em; /*48px;*/
+            }
+
+
+
+
+
+
+
+.navbar-row {
+    min-height:70px;
+    /*background-color:#b9b9b9; /*home page*/
+    background-color:#ccc;
+}
+
+    .navbar-row .navbar-toggle {
+        margin-top:20px;
+        margin-right: 0;
+    }
+
+.navbar-row .navbar-brand {
+     font-size:1.8em;/*36px;*/
+     height:70px;
+     line-height:70px;
+     padding:0;
+     color:#000;
+     white-space: nowrap;
+}
+
+.navbar-row .navbar-nav > li > a {
+    color: black;
+    line-height: 40px;
+    padding-left:0;
+    padding-right: 85px;
+}
+
+
+@media (max-width: 1024px) {
+    .navbar-row .navbar-nav > li > a {
+        padding-right: 20px;
+    }
+}
+
+    .navbar-row .navbar-nav > li:last-child > a {
+        padding-right: 0;
+    }
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover {
+    background-color:inherit;
+}
+
+/*.navbar-default .navbar-nav > li > a:focus, */
+.navbar-default .navbar-nav > li > a:hover {
+    color:#fff;
+}
+
+
+
+.content {
+    margin: 25px 0;
+}
+
+
+    @media (max-width: 992px) {
+        .content .content-block {
+            margin-bottom: 25px;
+        }
+    }
+
+     .content .content-img-block {
+         width: 41.6667%;
+         float: left;
+         margin-right: 15px;
+    }
+
+    .content h1.content-header {
+        font-size: 1.2em;/*24px;*/
+        text-transform:uppercase;
+        margin-top:0;
+        margin-bottom: 20px;
+    }
+
+    .content h1.content-header.contact-info-header {
+        margin-bottom: 40px;
+    }
+
+      
+     @media (max-width: 992px) {
+        .content h1.content-header.contact-info-header {
+            margin-bottom: 20px;
+        }
+    }  
+
+    .content p {
+        font-family: 'Domine', serif;
+        font-size: 1em;/*20px;*/
+    }
+
+
+.footer-main {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #111;
+    color: #fff;
+
+    /*bottom: 0;
+    width: 100%;
+    clear: both;*/
+}
+
+    .footer-main .project-name {
+        font-size: 1.8em;/*36px;*/
+        margin:0;
+    }
+
+    .footer-main .abn {
+        font-family: 'Domine', serif;
+        font-size: 0.75em;/*16px;*/
+        margin:0;
+    }
+
+    .footer-main .contact-info {
+        font-family: 'Domine', serif;
+        margin-top:10px;
+    }

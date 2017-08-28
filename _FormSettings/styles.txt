@@ -1,0 +1,49 @@
+
+.jotform-form {
+    padding : 0 5px 0 0;
+}
+
+.form-all {
+    padding-top : 0;
+}
+
+.form-line {
+    padding-left : 0;
+    padding-right : 0;
+}
+
+.form-line:first-child {
+    padding-top : 0;
+}
+
+.form-custom-hint {
+    color : #a69494 !important;
+}
+
+::-webkit-input-placeholder {
+    /* WebKit, Blink, Edge */
+    color : #a69494 !important;
+}
+
+:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+   color : #a69494 !important;
+    opacity : 1;
+}
+
+::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+   color : #a69494 !important;
+    opacity : 1;
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+   color : #a69494 !important;
+}
+
+@media only screen and (max-device-width: 550px) {
+.form-textarea {
+        width: 100% !important;
+    }
+}
